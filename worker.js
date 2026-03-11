@@ -7,7 +7,7 @@ export default {
     const pathname = url.pathname;
 
     const indexResponse = await env.ASSETS.fetch(
-      new Request(new URL("/index.html", request.url)),
+      new Request(new URL("/index_ko.html", request.url)),
     );
     const body = await indexResponse.text();
 
